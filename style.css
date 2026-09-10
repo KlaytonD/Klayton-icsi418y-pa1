@@ -1,28 +1,37 @@
 h1 {
-    color:darkblue;
+    color:black;
     text-align:center;
     font-size: 36px;
 }
 .submit{
     padding: 10px;
     font-family: Arial;
+    background-color: green;
+    color: white;
 }
-
+label{
+    display: block;
+    font-size : 18px;
+    margin-bottom: 5px;
+}
 select{
     padding: 10px;
     font-family: Arial;
 }
 body{
     font-family: Arial;
-    background-color: grey;
+    background-color: lightgray;
 }
 form{
     border: 1px black solid;
     padding: 10px;
-    margin: 10px;
-    max-width: 500px;
+    margin: 20px auto;
+    max-width: 200px;
 }
-
+#task-input{
+    padding: 10px;
+    font-family: Arial;
+}
 .completed {
     text-decoration: line-through;
 }
